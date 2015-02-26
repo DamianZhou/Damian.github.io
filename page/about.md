@@ -31,7 +31,7 @@ blockquote p {
 
 > 网名: Damian   
 > Email: <a href="mailto:zhoucaidong@gmail.com">zhoucaidong@gmail.com</a>
-> 微&nbsp;&nbsp;博: <a href="http://weibo.com/zhoucaidong">@Comtu</a>  
+> 微&nbsp;&nbsp;博: <a href="http://weibo.com/zhoucaidong">@酒千觞箫</a>  
 > 博&nbsp;&nbsp;客: <a href="http://damian.github.io/">Damian Zhou</a>  
 > GitHub：[Damian Zhou](https://github.com/DamianZhou)  
 > ....
