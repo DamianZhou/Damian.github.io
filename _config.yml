@@ -20,9 +20,9 @@ shTheme: shThemeDefault # shThemeDefault  shThemeDjango  shThemeEclipse  shTheme
 blog:
     name: Damian                                                    # 博客名称
     description: Damian is going to the github.                     # 博客描述
-    title: comtu                                                    # 网页标题
+    title: Damian Zhou                                              # 网页标题
     url: http://damian.github.io/                                   # 博客地址
-    duoshuo: comtu                                                  # 多说ID 
+    duoshuo: DamianZhou                                             # 多说ID 
     tongji: e0d9a75a7e53b54cd1e6649facd5906e                        # 百度统计ID
     clickiTongJi: 51831					                            # Clicki统计ID
     qiniu:                                                          # 七牛云地址
