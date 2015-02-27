@@ -1,6 +1,8 @@
+[TOC]
+
 ## 简介 :octocat::thumbsup:
 
-这是一款Jekyll博客主题，叫做Jekyll Light。是我引用pexcn大牛的一个博客框架, 没有用到任何CSS框架，简洁美观。  
+这是一款Jekyll博客主题，叫做Jekyll Light。是我引用pexcn大牛的一个博客框架, 没有用到任何CSS框架，简洁美观。直接的引用版本是comtu的版本。
 
 
 ### 关于主题
@@ -17,6 +19,10 @@
 * 支持SyntaxHihglighter代码高亮
 
 ## 使用
+
+下载该项目ZIP包，去除git部分，然后在自己的GitHub上面新建一个仓库，仓库的名字为`yourname。github.io`
+
+修改zip包中的 `_config.yml`、`_data/orgs/github.yml`文件，替换为自己的信息。同时可以修改图片，制定自己的效果。
 
 ### 站点配置
 在`_config.yml`配置你的站点信息，详细配置如下：
@@ -96,3 +102,9 @@ _posts文件夹下的markdown文件的layout项改为`post`，使用简版页面
 ## 许可证
 
 [**GNU GPL v3**](http://www.gnu.org/licenses/gpl-3.0.html)
+
+
+##参考链接
+https://github.com/comtu/comtu.github.io
+
+
