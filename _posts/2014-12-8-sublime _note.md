@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "sublime 学习笔记"
+title : "sublime 学习笔记（Windows版）"
 category : Software Skills
 duoshuo: true
 date : 2014-12-8
@@ -26,13 +26,16 @@ The console is accessed via the ``` ctrl+` ```shortcut or the `View > Show Conso
 Once open, paste the appropriate Python code for your version of Sublime Text into the console.
 
 for sublime3:
+
 ```python
 import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 for sublime2:
+
 ```python
 import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
 ```
+
 经过上面安装了Package Control后，我们就可以通过快捷键 `Ctrl+Shift+P` 打开Package Control来安装插件了。在打开的输入框中输入 `install` ，会根据你的输入自动提示，选择 Install Package。
 
 ---
@@ -92,43 +95,27 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
  5. Ctrl+J 合并行（已选择需要合并的多行时）
 
  9. Ctrl+M 光标移动至括号内开始或结束的位置
- 10.  
+ 1. Ctrl+Z 撤销
+ 1. Ctrl+Y 恢复撤销
+ 1. Ctrl+M 光标跳至对应的括号
+ 1. Alt+. 闭合当前标签
+ 1. Ctrl+Shift+A 选择光标位置父标签对儿
 
-Ctrl+Z 撤销
-Ctrl+Y 恢复撤销
-Ctrl+M 光标跳至对应的括号
-Alt+. 闭合当前标签
-Ctrl+Shift+A 选择光标位置父标签对儿
+ 1. Ctrl+KT 折叠属性
+ 1. Ctrl+K0 展开所有
+ 1. Ctrl+U 软撤销
+ 1. Ctrl+T 词互换
+ 1. Tab 缩进 自动完成
+ 1. Shift+Tab 去除缩进
 
-Ctrl+KT 折叠属性
-Ctrl+K0 展开所有
-Ctrl+U 软撤销
-Ctrl+T 词互换
-Tab 缩进 自动完成
-Shift+Tab 去除缩进
-
-Ctrl+K Backspace 从光标处删除至行首
-Ctrl+Enter 光标后插入行
-Ctrl+Shift+Enter 光标前插入行
-Ctrl+F2 设置书签
-F2 下一个书签
-Shift+F2 上一个书签
+ 1. Ctrl+K Backspace 从光标处删除至行首
+ 1. Ctrl+Enter 光标后插入行
+ 1. Ctrl+Shift+Enter 光标前插入行
+ 1. Ctrl+F2 设置书签
+ 1. F2 下一个书签
+ 1. Shift+F2 上一个书签
 
 
-
----
-
-<section>
-<h3><b>最新评论</b></h3>
-<ul class="ds-recent-comments" data-num-items="10" data-show-avatars="0" data-show-time="0" data-show-title="0" data-show-admin="0" data-excerpt-length="18"></ul>
-</section>
-
-<section style="width:250px;">
-<h3><b>最近访客</b></h3>
-<ul class="ds-recent-visitors" data-num-items="4" data-avatar-size="45" style="margin-top:10px;"></ul>
-</section>
-
----
 
 
 
