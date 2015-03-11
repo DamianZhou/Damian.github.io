@@ -24,7 +24,7 @@ blog:
     url: http://damian.github.io/                                   # 博客地址
     duoshuo: DamianZhou                                             # 多说ID 
     tongji: 9f3e352f891459c67de14107781f3f00                        # 百度统计ID
-    clickiTongJi: 51831					                            # Clicki统计ID
+    clickiTongJi: 											                            # Clicki统计ID
     qiniu:                                                          # 七牛云地址
 author:
     name: Damian                                                    # 作者名称
