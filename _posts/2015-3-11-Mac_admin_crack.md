@@ -32,12 +32,12 @@ shTheme: shThemeEclipse # shThemeDefault  shThemeDjango  shThemeEclipse  shTheme
  2. 按住`command+S`，然后按下开机键。此时进入单一用户模式（Single user model）
 	>Mac OS的单一用户模式有准入特权（Root access privilege）而不要求根密码（root password）。
  3. 此时出现 `#root>`的终端界面，分别输入下面的命令
-	```bash
+	{% highlight bash linenos %}
 	> /sbin/fsck -y				#执行硬盘检测（只读）, 这一步可以省略
 	> /sbin/mount -uaw			#加载文件系统（读/写）
 	> rm /var/db/.AppleSetupDone	#删除MAC OS初始化设置
 	> reboot						#重启
-    ```
+	{% endhighlight %}
  4. 重启开机后出现类似装机时的欢迎界面。就像第一次安装一样，重新建立一个新的Mac OS管理员账号。
 	>文件和APP都还在，只不过不一定有权限去读取以前的文件。下面重置密码即可！
     
