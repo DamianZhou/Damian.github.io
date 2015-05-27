@@ -10,23 +10,19 @@ shTheme: shThemeEclipse # shThemeDefault  shThemeDjango  shThemeEclipse  shTheme
 
 ---
 
-#Mac破解管理员
-
-[TOC]
-
 超级简单方便的破解Mac方法。
 
-##事件描述
+#事件描述
 原准备修改Mac的管理员的名字，一时脑残在`用户与群组`中把用户名修改为root。然后窗口跳动了几下，所有的用户都变成`staff普通用户`了，配置的时候无论输入什么用户名密码都不能解锁。忧伤...
 
 差点就准备`command+R`重装电脑了，结果发现了这个破解方法
 
-##适用情况
+#适用情况
 
  - 忘记Mac密码，无法开机
  - 忘记管理员密码，只有普通用户的权限，无法修改电脑配置
 
-##破解方案
+#破解方案
 
  1. 关机
  2. 按住`command+S`，然后按下开机键。此时进入单一用户模式（Single user model）

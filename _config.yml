@@ -6,9 +6,20 @@ paginate_path: page/:num
 
 
 # Build settings
-# markdown: redcarpet
-# redcarpet:
-#     extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
+#markdown: redcarpet
+#redcarpet:
+#  extensions:
+#    - no_intra_emphasis
+#    - tables
+#    - fenced_code_blocks
+#    - autolink
+#    - disable_indented_code_blocks
+#    - strikethrough
+#    - superscript
+#    - underline
+#    - highlight
+#    - footnotes
+#    - with_toc_data
 
 #SyntaxHihglighter config start
 

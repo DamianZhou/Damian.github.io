@@ -15,9 +15,12 @@ post: true
 	<i class="fa fa-tags"></i>
 	{% for tag in page.tags %}<a class="post-category" href="/page/tags.html#{{ tag }}">{{ tag }}</a><i class="space"></i>{% endfor %}
   </p>
+
+  <!-- This css contains the default style for TOC -->
+  <link rel="stylesheet" type="text/css" media="screen" href="res/css/toc.css">
 </header>
 <div class="post-main">
-{{ content }}
+{{ content | toc_generate }}
 </div>
 {% include share.html %}
 <div class="pagination">
