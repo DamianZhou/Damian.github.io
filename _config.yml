@@ -11,17 +11,17 @@ description: A simple and awesome blog theme powered by jekyll.
 # Then, the 'url' is: http://yourname.github.io
 # If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
 # Then, the 'url' is: http://yourname.github.io/projectname
-url: http://localhost:4000
+url: http://damianzhou.github.io/
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-markdown: redcarpet #kramdown
 highlighter:  pygments
 excerpt_separator: <!--more-->
 
+markdown: redcarpet #kramdown
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -50,7 +50,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: damianzhou
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
