@@ -7,25 +7,28 @@ tags              : [Software,MAC]
 comments          : true # enable disqus comment
 ---
 
-###错误描述
+* content
+{:toc}
+
+####错误描述
 
 直接从 WMware Fusion 中的`从光盘或映像安装`中选择ISO文件，然后按顺序安装CentOS，最后会卡在“installing VMware Tools”无法继续安装：
 
-```bash
+{% highlight bash %}
 ...
 installing VMware Tools, please wait...
 mount: special device /dev/hda does not exist
 mount: block device /dev/sr0 is write-protected, mounting read only
 /etc/rc5.d/S99local: line 25: eject: command not found
 /etc/rc5.d/S99local: line 25: eject: command not found
-```
+{% endhighlight %}
 
 软件环境如下
 
 1. WMware Fusion 专业版 7.1.0 (2314774)
 2. CentOS 6.6 64位
 
-###正确安装方式
+####正确安装方式
 
 1. 选择`更多选项`
 2. 在`创建自定虚拟机`中，选择Linux，并选中 **CentOS64位**，然后`继续`
@@ -39,7 +42,7 @@ mount: block device /dev/sr0 is write-protected, mounting read only
 
 最后安装完以后，将启动磁盘设置为`恢复默认`即可。
 
-###参考
+####参考
 
 [https://www.centos.org/forums/viewtopic.php?t=4344](https://www.centos.org/forums/viewtopic.php?t=4344)
 
