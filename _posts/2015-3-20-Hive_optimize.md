@@ -7,7 +7,8 @@ comments: true
 
 #Hive 优化
 
-[TOC]
+* TOC
+{:toc}
 
 使用`EXPLAIN`命令查看Hive是如何处理任务的。
 添加 EXPLAIN 以后，会输出==抽象语法树==。
